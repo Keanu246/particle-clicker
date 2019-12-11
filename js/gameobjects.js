@@ -29,6 +29,7 @@ var GameObjects = (function() {
                                money : 0,
                                reputation : 0,
                                clicks : 0,
+                               ascend : 25,
                                moneyCollected : 0,
                                moneySpent : 0,
                                dataCollected : 0,
