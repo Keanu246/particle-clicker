@@ -1,1 +1,46 @@
-
+[
+  {
+    "key": "upgrade-power1",
+    "name": "Hello World",
+    "description": "Hello to the Internet!",
+    "effect": "Double per click",
+    "icon": "fa-bolt",
+    "cost": 100,
+    "targets": [{ "key": "lab", "property": "detector" }],
+    "requirements": [],
+    "factor": 2
+  },
+  {
+    "key": "upgrade-power2",
+    "name": "Improved Power",
+    "description": "Power is improved. And gives more clicks.",
+    "effect": "Double per click",
+    "icon": "fa-bolt",
+    "cost": 500,
+    "targets": [{ "key": "lab", "property": "detector" }],
+    "requirements": [],
+    "factor": 2
+  },
+  {
+    "key": "upgrade-power3",
+    "name": "Power Up",
+    "description": "Power flows to the world. And gives more.",
+    "effect": "Triple per click",
+    "icon": "fa-bolt",
+    "cost": 2500,
+    "targets": [{ "key": "lab", "property": "detector" }],
+    "requirements": [],
+    "factor": 3
+  },
+  {
+    "key": "upgrade-power4",
+    "name": "Local Up",
+    "description": "Locals boost power to your clicks.",
+    "effect": "Triple per click",
+    "icon": "fa-bolt",
+    "cost": 10000,
+    "targets": [{ "key": "lab", "property": "detector" }],
+    "requirements": [],
+    "factor": 3
+  }
+]
