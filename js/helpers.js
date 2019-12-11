@@ -25,14 +25,36 @@ var Helpers = (function () {
     }
 
     var prefixes = [
-      { magnitude: 1e24, label: 'Y' },
-      { magnitude: 1e21, label: 'Z' },
-      { magnitude: 1e18, label: 'E' },
-      { magnitude: 1e15, label: 'P' },
+      { magnitude: 1e93, label: 'undefined' },
+      { magnitude: 1e90, label: 'undefined' },
+      { magnitude: 1e87, label: 'undefined' },
+      { magnitude: 1e84, label: 'undefined' },
+      { magnitude: 1e81, label: 'undefined' },
+      { magnitude: 1e78, label: '*****' },
+      { magnitude: 1e75, label: '****' },
+      { magnitude: 1e72, label: '***' },
+      { magnitude: 1e69, label: '**' },
+      { magnitude: 1e66, label: '*' },
+      { magnitude: 1e63, label: 'V' },
+      { magnitude: 1e60, label: 'ND' },
+      { magnitude: 1e57, label: 'OD' },
+      { magnitude: 1e54, label: 'SSD' },
+      { magnitude: 1e51, label: 'SD' },
+      { magnitude: 1e48, label: 'QQD' },
+      { magnitude: 1e45, label: 'QD' },
+      { magnitude: 1e42, label: 'TD' },
+      { magnitude: 1e39, label: 'DD' },
+      { magnitude: 1e36, label: 'U' },
+      { magnitude: 1e33, label: 'D' },
+      { magnitude: 1e30, label: 'N' },
+      { magnitude: 1e27, label: 'O' },
+      { magnitude: 1e24, label: 'SS' },
+      { magnitude: 1e21, label: 'S' },
+      { magnitude: 1e18, label: 'QQ' },
+      { magnitude: 1e15, label: 'Q' },
       { magnitude: 1e12, label: 'T' },
-      { magnitude:  1e9, label: 'B' },
-      { magnitude:  1e6, label: 'M' },
-      { magnitude:  1e3, label: 'k' }
+      { magnitude: 1e9, label: 'B' },
+      { magnitude: 1e6, label: 'M' }
     ];
 
     var abs = Math.abs(number);
